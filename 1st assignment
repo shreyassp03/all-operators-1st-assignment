@@ -46,6 +46,79 @@ int main()
     scanf("%c",&i);
     printf("signed char:%c\n",i);
     
+    int a,b,sum;
+    printf("enter a: ");
+    printf("enter b: ");
+    scanf("%d%d", &a, &b);
+    printf("%d, a+b);
+    
+    
+    int m,y;
+    printf("enter m: ");
+    y=m++;
+    printf("%d%d", m, y);
+    
+  int a = 9;
+  int b = 4;
+  printf(" a >  b: %d \n", a > b);
+  printf("a >= b: %d \n", a >= b);
+  printf("a <= b: %d \n", a <= b);
+  printf("a <  b: %d \n", a < b);
+  printf("a == b: %d \n", a == b);
+  printf("a != b: %d \n", a != b);
+  
+  int a = 5;
+   int b = 20;
+   int c ;
+
+   if ( a && b ) {
+      printf("Line 1 - Condition is true\n" );
+   }
+	
+   if ( a || b ) {
+      printf("Line 2 - Condition is true\n" );
+   }
+   
+   /* lets change the value of  a and b */
+   a = 0;
+   b = 10;
+	
+   if ( a && b ) {
+      printf("Line 3 - Condition is true\n" );
+   } else {
+      printf("Line 3 - Condition is not true\n" );
+   }
+	
+   if ( !(a && b) ) {
+      printf("Line 4 - Condition is true\n" );
+      
+      
+      unsigned int a = 60;	/* 60 = 0011 1100 */  
+   unsigned int b = 13;	/* 13 = 0000 1101 */
+   int c = 0;           
+
+   c = a & b;       /* 12 = 0000 1100 */ 
+   printf("Line 1 - Value of c is %d\n", c );
+
+   c = a | b;       /* 61 = 0011 1101 */
+   printf("Line 2 - Value of c is %d\n", c );
+
+   c = a ^ b;       /* 49 = 0011 0001 */
+   printf("Line 3 - Value of c is %d\n", c );
+
+   c = ~a;          /*-61 = 1100 0011 */
+   printf("Line 4 - Value of c is %d\n", c );
+
+   c = a << 2;     /* 240 = 1111 0000 */
+   printf("Line 5 - Value of c is %d\n", c );
+
+   c = a >> 2;     /* 15 = 0000 1111 */
+   printf("Line 6 - Value of c is %d\n", c );
+  
+    
+    
+    
+    
 
 
 
